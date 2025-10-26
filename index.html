@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web- Project_03</title>
+    <!-- tailwind setup -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font-style setup -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <!-- font-awsome setup -->
+    <script src="https://kit.fontawesome.com/9f59a2d7ab.js" crossorigin="anonymous"></script>
+    <!-- font-style styling Css -->
+    <style>
+        body{
+            font-family: "Sen", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- heading start -->
+    <header>
+        <!-- navbar start-->
+        <nav class="bg-[#0A192F]/80 backdrop-blur-md p-4 fixed z-50 top-0 left-0 w-full">
+            <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center text-white w-11/12 mx-auto">
+                <h1 class="text-3xl font-bold text-center lg:text-left">F A</h1>
+                <ul class="hidden lg:flex gap-4 text-lg ">
+                    <li><a href="#" class="hover:text-blue-300">Home</a></li>
+                    <li><a href="#" class="hover:text-blue-300">About</a></li>
+                    <li><a href="#" class="hover:text-blue-300">Skill</a></li>
+                    <li><a href="#" class="hover:text-blue-300">Education</a></li>
+                    <li><a href="#" class="hover:text-blue-300">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+        <!-- banner start-->
+        <section class="bg-gradient-to-r from-[#04152d] to-[#070e1a] text-white pt-10 pb-5 lg:pt-25">
+            <div class="w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- right side -->
+                <div class="flex justify-center relative order-1 lg:order-2 ">
+                    <img src="./images/Polygon.png" alt="">
+                    <img src="./images/banner.png" alt="" class="absolute top-10 lg:pt-5 ">
+                </div>
+                <!-- left side -->
+                <div class="text-center lg:text-left order-2 lg:order-1">
+                    <h1 class="text-2xl font-bold mb-4">Hello it's me</h1>
+                    <h1 class="text-5xl font-bold mb-4">Atikur Rahman</h1>
+                    <h1 class="text-2xl font-bold mb-4"> And I am <span class="text-blue-600">A</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, nisi.</p>
+
+                    <!-- icons div -->
+                     <div class="text-2xl pt-4">
+                        <a href="" class="text-blue-700 hover:text-blue-300"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" class="text-blue-700 hover:text-blue-300"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="text-blue-700 hover:text-blue-300"><i class="fa-brands fa-github"></i></a>
+                        <a href="" class="text-blue-700 hover:text-blue-300"><i class="fa-brands fa-linkedin"></i></a>
+                     </div>
+                    <!-- button div -->
+                     <div class="pt-4"><button class="bg-blue-600 text-white py-2 px-4 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.8)] hover:bg-blue-600" >Download CV</button></div>
+                </div>
+            </div>
+        </section>
+        <!-- banner end-->
+    </header>
+    <!-- heading end -->
+
+
+    <!-- main start -->
+    <main>
+        <section class="bg-gradient-to-r from-[#010a16] to-[#112240] text-white pt-4 lg:pt-32">
+            <div class="w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- right side -->
+                <div class="flex justify-center relative order-1 lg:order-2">
+                    <img src="./images/rouded.png" alt="">
+                    <img src="./images/banner.png" alt="" class="absolute top-10 lg:pt-5">
+                </div>
+                <!-- left side -->
+                <div class="text-center pt-5 lg:text-left order-1 lg:order-2">
+                    <h1 class="text-2xl font-bold mb-2"> About <span class="text-blue-600">ME</span></h1>
+                    <h1 class="text-xl mb-10">UI/UX Designer</h1>                   
+                    <p class="pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing el Lorem ipsum dolor sit amet. Vitae, Lorem, ipsum dolor sit nisi.</p>
+                    <p class="pb-3"> &nbsp; &nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, Lorem, ipsumc adipisicing elit. Ex, eius. nisi.</p>
+                    <p> &nbsp; &nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, Lorem, ipsum dolor adipisicing elit. Ex, eius. nisi.</p>
+
+                    <!-- button div -->
+                     <div class="pt-8 pb-8"><button class="bg-blue-600 text-white py-2 px-4 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.8)] hover:bg-blue-600" >See More</button></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main end -->
+
+
+    <!-- skill start -->
+    <section class=" bg-gradient-to-r from-[#062f65] to-[#030b17] text-white pt-10 lg:pt-20 pb-10 lg:pb-20">
+        <div class="flex-col gap-12 items-center text-center ">
+            <div >
+                <h1 class="text-2xl font-bold mb-10"> My <span class="text-blue-600">Skills</span></h1>
+            </div>
+            <div class="flex-col pl-6 pr-6 pb-20 pt-10 justify-center gap-12 text-center w-5/12 bg-black rounded-3xl mx-auto">
+                <img src="./images/brush.png" alt="" class="mx-auto pt-10 pb-5">
+                <div>
+                    <h1 class="text-xl font-bold pb-4">UI/UX Designer</h1>
+                    <p class="pb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem incidunt blanditiis, laboriosam beatae vitae similique architecto. Nisi cumque laboriosam excepturi. Natus recusandae soluta voluptate dicta similique repellat odit a optio?</p>
+                    <button class="bg-blue-600 text-white py-2 px-4 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.8)] hover:bg-blue-600">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skill end -->
+
+
+    <!-- card start -->
+    <section class=" bg-[url('./images/Projects_bg.png')] bg-cover bg-no-repeat bg-center min-h-screen flex justify-center items-center bg-black/60 bg-blend-overlay flex flex-col items-center text-white pt-10 lg:pt-20 lg:pb-20 pl-6 lg:pl-15 pr-6 lg:pr-15">
+        <!-- card heading start -->
+        <div class="text-center pb-10">
+            <h1 class="text-4xl font-bold text-white mb-5"> My Recent <span class="text-blue-600">Work</span></h1>
+            <div class="pb-10 flex gap-2 lg:gap-8">
+                <button class="bg-black-800 text-white py-2 px-4 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.8)] hover:bg-blue-600">ALL</button>
+                <button class="bg-black-800 text-white py-2 px-4 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.8)] hover:bg-blue-600">UI</button>
+                <button class="bg-black-800 text-white py-2 px-4 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.8)] hover:bg-blue-600">UX</button>
+                <button class="bg-black-800 text-white py-2 px-4 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.8)] hover:bg-blue-600">Web Design</button>
+            </div>
+        </div>
+        <!-- card heading end -->
+        <!-- card body start -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+            <div class=" bg-slate-600 rounded-2xl p-8 "><img class="w-full hover:animate-bounce" src="./images/project_01.png" alt="" ></div>
+            <div class=" bg-slate-600 rounded-2xl p-8"><img  class="w-full hover:animate-bounce"src="./images/project_02.png" alt="" ></div>
+            <div class=" bg-slate-600 rounded-2xl p-8"><img  class="w-full hover:animate-bounce"src="./images/project_03.png" alt=""></div>
+        </div>
+        <!-- card body end -->
+    </section>
+    <!-- card end -->
+
+    <!-- footer start-->
+    <footer class="bg-slate-900 text-white">
+        <section class="flex flex-col gap-12 items-center text- pt-10 lg:pt-15 pb-10 lg:pb-15 pl-6 lg:pl-15 pr-6 lg:pr-15">
+            <div>
+                <h1 class="text-2xl font-bold mb-0 text-center"> Contact <span class="text-blue-600">Me</span></h1>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-6 ">
+                <input type="text" placeholder="First Name" class="p-2 rounded-lg border  ">
+                <input type="text" placeholder="First Name" class="p-2 rounded-lg border  ">
+                <input type="text" placeholder="First Name" class="p-2 rounded-lg border lg:col-span-2">
+                <textarea name="" placeholder="First Name" id="" class="p-4 h-42 rounded-lg border lg:col-span-2 "></textarea>
+            </div>
+            <div>
+                <button class="bg-blue-600 text-white py-2 px-4 rounded-xl shadow-[0_0_20px_rgba(37,99,235,0.8)] hover:bg-blue-600">Send</button>
+            </div>
+        </section>
+    </footer>
+    <!-- footer end -->
+
+    
+</body>
+</html>
